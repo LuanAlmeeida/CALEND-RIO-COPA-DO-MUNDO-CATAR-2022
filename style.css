@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: brown;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border: 3px solid green;
+    max-width: 800px;
+    /*max-height: 200px;*/
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid red;
+    max-width: 100%;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.gcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+#Jogo1 {
+    display: flex;
+    justify-content: center;
+}
+
+.Grupo {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid blue;
+    flex-wrap: wrap; 
+}
