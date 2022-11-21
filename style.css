@@ -114,6 +114,7 @@ div {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     /*border: 3px solid red;*/
     max-width: 100%;
     padding: 0.5rem;
@@ -139,6 +140,9 @@ div {
 
 .Grupo {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
     border: 2px solid goldenrod;
     border-radius: 9px;
@@ -210,12 +214,30 @@ table .Equipes:hover {
         width: 100%;
     }
 
+       header h1 {
+        font-size: 1.2rem;
+    }
+
+    header h3 {
+        font-size: 0.9rem;
+    }
+
     header nav a {
-        font-size: 1rem;
+        font-size: 0.7rem;
+        margin: 0.2rem;
     }
 
     section {
         width: 70%;   
     }
+
+    .gcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+}
    
 }
