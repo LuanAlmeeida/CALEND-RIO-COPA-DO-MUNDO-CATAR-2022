@@ -17,6 +17,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    width: 100%;
 }
 
 .data {
@@ -30,7 +31,7 @@ header {
 
 .data span {
     font-size: 1.5rem;
-    color: brown;
+    color: goldenrod;
     font-weight: bold;
 }
 
@@ -201,4 +202,20 @@ table .Equipes:hover {
     color: blue;
     font-size: 3rem;
     font-weight: bold;
+}
+
+@media (max-width: 600px){
+    
+    header {
+        width: 100%;
+    }
+
+    header nav a {
+        font-size: 1rem;
+    }
+
+    section {
+        width: 70%;   
+    }
+   
 }
