@@ -12,10 +12,12 @@
 header {
     background-image: linear-gradient(to right, red, brown, darkred);
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 1.5rem;
     margin-bottom: 2rem;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     gap: 1.5rem;
     width: 100%;
 }
@@ -208,6 +210,34 @@ table .Equipes:hover {
     font-weight: bold;
 }
 
+#Logo-Esquerda {
+    display: flex;
+    justify-content:left;
+    cursor: pointer;
+}
+
+#Logo-Direita {
+    display: flex;
+    justify-content:right;
+    cursor: pointer;
+}
+
+
+#Logo-Esquerda img {
+    width: 192px;
+    height: 192px;
+}
+
+#Logo-Direita img {
+    width: 192px;
+    height: 192px;
+}
+
+#Titulo{
+    display: flex;
+    flex-direction: column;
+}
+
 @media (max-width: 600px){
     
     header {
@@ -225,6 +255,8 @@ table .Equipes:hover {
     header nav a {
         font-size: 0.7rem;
         margin: 0.2rem;
+        display: flex;
+        flex-direction: column;
     }
 
     section {
@@ -238,6 +270,16 @@ table .Equipes:hover {
     justify-content: center;
     flex-wrap: wrap;
     width: 500px;
+}
+
+#Logo-Esquerda img {
+    width: 92px;
+    height: 92px;
+}
+
+#Logo-Direita img {
+    width: 92px;
+    height: 92px;
 }
    
 }
