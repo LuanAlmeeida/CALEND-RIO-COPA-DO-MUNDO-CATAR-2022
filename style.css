@@ -294,6 +294,10 @@ table .Equipes:hover {
     height: 92px;
 }
 
+table thead th {
+    align-items: center;
+}
+
 table .Equipes {
     font-size: 1rem;
 }
