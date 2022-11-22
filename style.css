@@ -192,8 +192,11 @@ table {
     width: 40%;    
 }
 
+
 table .TCabecalho {
     background-image: linear-gradient(90deg, black, darkred, darkblue);
+    border-bottom: 2px solid gray;
+    font-weight: bold;
 }
 
 table .Equipes {
