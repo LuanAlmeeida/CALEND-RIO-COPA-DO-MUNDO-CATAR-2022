@@ -204,6 +204,12 @@ table .Equipes:hover {
     
 }
 
+.Classificacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
 .Classificados {
     color: blue;
     font-size: 3rem;
@@ -280,6 +286,24 @@ table .Equipes:hover {
 #Logo-Direita img {
     width: 92px;
     height: 92px;
+}
+
+table .Equipes {
+    font-size: 1rem;
+}
+
+table .Equipes p {
+    font-size: 9px;
+}
+
+table .Equipes img {
+    width: 32px;
+}
+
+.Classificacao {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
 }
    
 }
