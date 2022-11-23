@@ -282,11 +282,11 @@ table .Equipes:hover {
         font-size: 0.7rem;
         margin: 0.2rem;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     section {
-        width: 70%;   
+        width: 93%;   
     }
 
     .gcontainer{
@@ -295,12 +295,12 @@ table .Equipes:hover {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        width: 500px;
+        width: 100%;
     }
 
     .Partida {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
