@@ -169,8 +169,6 @@ div {
     transition-duration: 0.9s;
 }
 
-
-
 .Grupo div.Partida img:hover {
     transform: scale(1.2);
     transition-duration: 0.9s;
