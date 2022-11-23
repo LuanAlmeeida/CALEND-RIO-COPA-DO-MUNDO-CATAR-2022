@@ -55,6 +55,11 @@ header {
     font-weight: bold;
 }
 
+.Identificacao {
+    display: flex;
+    flex-direction: column;
+}
+
 .Placar span {
     font-weight: bold;
     font-size: 1.5rem;
@@ -106,7 +111,7 @@ section {
     margin-bottom: 2rem;
     border: 3px solid green;
     background-image: linear-gradient(90deg, brown, black, red);
-    max-width: 600px;
+    width: 55%;
     border-radius: 10px;
     /*max-height: 200px;*/
 }
@@ -131,8 +136,10 @@ div {
 
 .gcontainer{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    width: 500px;
+    width: 100%;
+    border: 2px solid black;
 }
 
 #Jogo1 {
@@ -161,6 +168,8 @@ div {
     transform: scale(1.2);
     transition-duration: 0.9s;
 }
+
+
 
 .Grupo div.Partida img:hover {
     transform: scale(1.2);
