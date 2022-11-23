@@ -139,7 +139,7 @@ div {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 #Jogo1 {
@@ -290,46 +290,52 @@ table .Equipes:hover {
     }
 
     .gcontainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 500px;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 500px;
+    }
 
-#Logo-Esquerda img {
+    .Partida {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+    #Logo-Esquerda img {
     width: 92px;
     height: 92px;
-}
+    }
 
-#Logo-Direita img {
-    width: 92px;
-    height: 92px;
-}
+    #Logo-Direita img {
+        width: 92px;
+        height: 92px;
+    }
 
+    table thead th {
+        align-items: center;
+    }
 
+    table .Equipes {
+        font-size: 1rem;
+    }
 
-table thead th {
-    align-items: center;
-}
+    table .Equipes p {
+        font-size: 9px;
+    }
 
-table .Equipes {
-    font-size: 1rem;
-}
+    table .Equipes img {
+        width: 32px;
+    }
 
-table .Equipes p {
-    font-size: 9px;
-}
-
-table .Equipes img {
-    width: 32px;
-}
-
-.Classificacao {
-    display: flex;
-    flex-direction: row;
-    width: 150px;
-}
+    .Classificacao {
+        display: flex;
+        flex-direction: row;
+        width: 150px;
+    }
    
 }
