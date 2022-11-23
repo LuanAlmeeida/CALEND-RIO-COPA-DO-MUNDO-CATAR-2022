@@ -282,7 +282,7 @@ table .Equipes:hover {
         font-size: 0.7rem;
         margin: 0.2rem;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     section {
