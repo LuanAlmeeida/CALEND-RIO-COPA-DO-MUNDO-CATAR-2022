@@ -124,19 +124,20 @@ div {
     text-align: center;
     /*border: 3px solid red;*/
     max-width: 100%;
-    padding: 0.5rem;
+    padding: 0.5vmin;
     gap: 1rem;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
    
 }
 
 .gcontainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     /*border: 2px solid black;*/
@@ -298,6 +299,13 @@ table .Equipes:hover {
         width: 100%;
     }
 
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
     .Partida {
         display: flex;
         flex-direction: row;
@@ -342,5 +350,6 @@ table .Equipes:hover {
         font-size: 1rem;
         width: 80%;
     }
+
    
 }
